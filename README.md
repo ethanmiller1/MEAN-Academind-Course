@@ -1,3 +1,11 @@
+# MEAN Stack Course
+
+An example MEAN application based on a tutorial by Maximilian Schwarzmüller.
+
+ ## Angular Frontend (Browser)
+
+
+
 # Client
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.3.

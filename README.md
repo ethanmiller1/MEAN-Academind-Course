@@ -4,7 +4,11 @@ An example MEAN application based on a tutorial by Maximilian Schwarzmüller.
 
  ## Angular Frontend (Browser)
 
+Add Angular Material (CSS Framework)
 
+``` bash
+ng add @angular/material
+```
 
 # Client
 

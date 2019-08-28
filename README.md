@@ -10,6 +10,14 @@ Add Angular Material (CSS Framework)
 ng add @angular/material
 ```
 
+Auto generate an Angular Component
+``` bash
+# Long way
+$ ng generate component [name]
+# Shorthand
+$ ng g c posts/post-list
+```
+
 # Client
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.3.

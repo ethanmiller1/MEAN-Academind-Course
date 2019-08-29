@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Post } from '../posts/post.model'
+import { Post } from '../post.model'
 import { PostsService } from '../posts.service'
 
 @Component({
@@ -20,6 +20,7 @@ export class PostListComponent implements OnInit {
   constructor(public postsService: PostsService) { }
 
   ngOnInit() {
+    this.posts = this.postsService.getPosts();
   }
 
 }
